@@ -1,0 +1,33 @@
+/* ✅ Mobile Layout – 2 produk per baris */
+@media only screen and (max-width: 768px) {
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 produk per baris */
+    gap: 2px;
+    padding: 0 12px;
+  }
+
+  .productGrid .product,
+  .productGrid .card {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+/* ✅ Desktop Layout – 4 produk per baris */
+@media only screen and (min-width: 992px) {
+  .productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 produk per baris */
+    gap: 24px;
+    padding: 0 24px;
+  }
+
+  .productGrid .product,
+  .productGrid .card {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
