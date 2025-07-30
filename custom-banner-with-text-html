@@ -1,0 +1,101 @@
+<style>
+  .banner-container-rick {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .banner-image-rick {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .banner-overlay-rick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .banner-content-rick {
+    max-width: 500px;
+    text-align: left;
+  }
+
+  .banner-content-rick h2 {
+    font-size: 28px;
+    margin: 0 0 10px;
+    line-height: 1.3;
+    color: #000;
+    text-shadow: none;
+  }
+
+  .banner-content-rick p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #000;
+    text-shadow: none;
+  }
+
+  .banner-content-rick a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 1024px) {
+    .banner-image-rick {
+      height: 250px;
+      object-fit: cover;
+      object-position: 100% center;
+    }
+
+    .banner-overlay-rick {
+      position: static;
+      display: block;
+      padding: 20px;
+    }
+
+    .banner-content-rick {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .banner-content-rick h2 {
+      font-size: 22px;
+    }
+
+    .banner-content-rick p {
+      font-size: 15px;
+    }
+
+    .banner-content-rick a {
+      font-size: 15px;
+    }
+  }
+</style>
+
+<div class="banner-container-rick">
+  <img src="https://cdn11.bigcommerce.com/s-xhmrmcecz5/images/stencil/original/image-manager/rick-and-morty-banner.jpg"
+       alt="CUSTOM GIFTS ACCESSORIES "
+       class="banner-image-rick">
+
+  <div class="banner-overlay-rick">
+    <div class="banner-content-rick">
+      <h2>Stylish Personalized Gits T-Shirts Designed to Stand Out – Perfect for Custom Gifts & Accessories</h2>
+      <p>Step into the multiverse with our Rick and Morty T-Shirts – part of our epic custom gifts & accessories lineup.</p>
+      <a href="https://www.pastele.com/rick-and-morty-donat-portal-custom-personalized-t-shirt-tees-apparel-cotton-tee-shirt-shirts/">SHOP NOW</a>
+    </div>
+  </div>
+</div>
