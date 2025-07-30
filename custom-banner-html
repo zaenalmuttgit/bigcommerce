@@ -1,0 +1,95 @@
+<style>
+  .custom-banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-banner img {
+    width: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .custom-banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+  }
+
+  .custom-banner h2 {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .custom-banner p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: black;
+  }
+
+  .custom-banner a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+
+  /* ✅ Responsive Styles */
+  @media (max-width: 768px) {
+    .custom-banner {
+      flex-direction: column;
+    }
+
+    .custom-banner img {
+      width: 100%;
+    }
+
+    .custom-banner .banner-text {
+      position: static;
+      transform: none;
+      padding: 10px 10px;
+    }
+
+    .custom-banner h2 {
+      font-size: 23px;
+      color: black;
+      text-shadow: none; 
+      padding: 10px 15px;       
+      line-height: 1.3;
+    }
+
+    .custom-banner p {
+      font-size: 16px;
+      color: black;
+    }
+  }
+</style>
+
+<div class="custom-banner">
+  <!-- Left Image -->
+  <img src="https://cdn11.bigcommerce.com/s-xhmrmcecz5/images/stencil/original/image-manager/apple-watch-band-banner.jpg" alt="Shop Custom Gifts and Personalized Accessories Apple Watch Band at Pastele">
+
+  <!-- center text -->
+  <div class="banner-text">
+    <h2>SHOP CUSTOM GIFTS & PERSONALIZED ACCESSORIES ONLINE</h2>
+    <p>Custom Gifts & Accessories</p>
+    <a href="https://www.pastele.com/all-products/">SHOP NOW</a>
+  </div>
+
+  <!-- right image -->
+  <img src="https://cdn11.bigcommerce.com/s-xhmrmcecz5/images/stencil/original/image-manager/airpods-case-banner.jpg" alt="Shop Custom Gifts and Personalized Accessories AirPods Case at Pastele">
+</div>
