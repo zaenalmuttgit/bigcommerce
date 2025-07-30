@@ -1,0 +1,22 @@
+<style>
+  .banner-image {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+
+  @media (max-width: 1024px) {
+    .banner-image {
+      height: 250px !important;
+      object-position: 52% center !important;
+    }
+  }
+</style>
+
+<img
+  src="https://cdn11.bigcommerce.com/s-xhmrmcecz5/images/stencil/original/image-manager/apple-watch.jpg"
+  alt="CUSTOM GIFTS Personalized Apple Watch Band"
+  class="banner-image"
+  loading="lazy">
