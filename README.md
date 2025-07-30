@@ -1,3 +1,4 @@
 # bigcommerce html code
 
-- custom banner HTML
+- custom hero banner HTML
+- custom banner image
